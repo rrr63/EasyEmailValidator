@@ -1,14 +1,14 @@
 {
-    "name": "auv/easyemailvalidator",
+    "name": "auvernhat/easyemailvalidator",
     "description": "A lightweight PHP package to validate email addresses against allowed and denied domain lists.",
     "autoload": {
         "psr-4": {
-            "Auv\\EasyEmailValidator\\": "src/"
+            "Auvernhat\\EasyEmailValidator\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "rrauv"
+            "name": "rrr63"
         }
     ],
     "require-dev": {

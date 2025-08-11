@@ -1,6 +1,6 @@
 <?php
 
-namespace Auv\EasyEmailValidator\Providers;
+namespace Auvernhat\EasyEmailValidator\Providers;
 
 class AdamLovingProvider extends ProviderAbstract
 {

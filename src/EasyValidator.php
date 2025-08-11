@@ -1,9 +1,9 @@
 <?php
 
-namespace Auv\EasyEmailValidator;
+namespace Auvernhat\EasyEmailValidator;
 
-use Auv\EasyEmailValidator\Providers\ProviderAbstract;
-use Auv\EasyEmailValidator\Providers\DisposableProvider;
+use Auvernhat\EasyEmailValidator\Providers\ProviderAbstract;
+use Auvernhat\EasyEmailValidator\Providers\DisposableProvider;
 
 class EasyValidator
 {
