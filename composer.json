@@ -1,5 +1,6 @@
 {
     "name": "r63/easyemailvalidator",
+    "description": "A lightweight PHP package to validate email addresses against allowed and denied domain lists.",
     "autoload": {
         "psr-4": {
             "R63\\EasyEmailValidator\\": "src/"
