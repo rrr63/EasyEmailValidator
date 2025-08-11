@@ -1,9 +1,9 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use R63\EasyEmailValidator\EasyValidator;
-use R63\EasyEmailValidator\Providers\ProviderAbstract;
-use R63\EasyEmailValidator\Providers\AdamLovingProvider;
+use Auv\EasyEmailValidator\EasyValidator;
+use Auv\EasyEmailValidator\Providers\ProviderAbstract;
+use Auv\EasyEmailValidator\Providers\AdamLovingProvider;
 
 class EasyValidatorTest extends TestCase
 {

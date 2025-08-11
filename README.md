@@ -7,13 +7,13 @@ A lightweight PHP package to validate email addresses against allowed and denied
 Add the package to your project with Composer:
 
 ```bash
-composer require r63/easyemailvalidator
+composer require auv/easyemailvalidator
 ```
 
 ## Usage
 
 ```php
-use R63\EasyEmailValidator\EasyValidator;
+use Auv\EasyEmailValidator\EasyValidator;
 
 $validator = new EasyValidator();
 
@@ -53,8 +53,8 @@ Several providers are included by default:
 You can specify the provider to use when creating the validator:
 
 ```php
-use R63\EasyEmailValidator\EasyValidator;
-use R63\EasyEmailValidator\Providers\AdamLovingProvider;
+use Auv\EasyEmailValidator\EasyValidator;
+use Auv\EasyEmailValidator\Providers\AdamLovingProvider;
 
 $validator = new EasyValidator(new AdamLovingProvider());
 $isValid = $validator->validate('test@gmail.com');
@@ -71,7 +71,7 @@ $validator = new EasyValidator(); // Uses DisposableProvider by default
 To add your own provider, create a new class in `src/Providers/` that extends `ProviderAbstract` and implements the required methods:
 
 ```php
-use R63\EasyEmailValidator\Providers\ProviderAbstract;
+use Auv\EasyEmailValidator\Providers\ProviderAbstract;
 
 class MyCustomProvider extends ProviderAbstract
 {
@@ -99,7 +99,7 @@ class MyCustomProvider extends ProviderAbstract
 You can create a custom provider that only allows emails from your own company domain. For example, to only accept `@mycompany.com` addresses:
 
 ```php
-use R63\EasyEmailValidator\Providers\ProviderAbstract;
+use Auv\EasyEmailValidator\Providers\ProviderAbstract;
 
 class MyCustomProvider extends ProviderAbstract
 {

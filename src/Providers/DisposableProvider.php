@@ -1,6 +1,6 @@
 <?php
 
-namespace R63\EasyEmailValidator\Providers;
+namespace Auv\EasyEmailValidator\Providers;
 
 class DisposableProvider extends ProviderAbstract
 {
