@@ -33,4 +33,4 @@ jobs:
         run: vendor/bin/php-cs-fixer fix tests --dry-run --diff
 
       - name: Run PHPUnit
-        run: vendor/bin/phpunit --testdox
+        run: vendor/bin/phpunit tests --testdox
